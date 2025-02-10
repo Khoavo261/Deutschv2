@@ -34,7 +34,7 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en', // Ngôn ngữ mặc định
+    defaultLocale: 'de', // Ngôn ngữ mặc định
     locales: ['en', 'vi', 'de'], // Thêm tiếng Việt và tiếng Đức
     localeConfigs: {
       en: {
