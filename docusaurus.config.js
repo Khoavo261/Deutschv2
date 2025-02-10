@@ -34,9 +34,23 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
+    defaultLocale: 'en', // Ngôn ngữ mặc định
+    locales: ['en', 'vi', 'de'], // Thêm tiếng Việt và tiếng Đức
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+      },
+      vi: {
+        label: 'Tiếng Việt',
+        direction: 'ltr',
+      },
+      de: {
+        label: 'Deutsch',
+        direction: 'ltr',
+      },
+    },
+  },  
 
   plugins: [require.resolve('docusaurus-lunr-search')],
 
@@ -108,40 +122,40 @@ const config = {
         },
         items: [
           {
-            to: '/docs/intro',
+            to: '/docs/a1niveau',
             position: 'left',
-            label: 'Tutorial',
-            activeBaseRegex: `/docs/intro`,
+            label: 'A1 Niveau',
+            activeBaseRegex: `/docs/a1niveau/intro`,
           },
           {
-            to: '/docs/intro',
+            to: '/docs/a2niveau',
             position: 'left',
-            label: 'Tutorial',
-            activeBaseRegex: `/docs/intro`,
+            label: 'A2 Niveau',
+            activeBaseRegex: `/docs/a2niveau/intro`,
           },
           {
-            to: '/docs/intro',
+            to: '/docs/b1niveau',
             position: 'left',
-            label: 'Tutorial',
-            activeBaseRegex: `/docs/intro`,
+            label: 'B1 Niveau',
+            activeBaseRegex: `/docs/b1niveau/intro`,
           },
           {
-            to: '/docs/intro',
+            to: '/docs/b2niveau',
             position: 'left',
-            label: 'Tutorial',
-            activeBaseRegex: `/docs/intro`,
+            label: 'B2 Niveau',
+            activeBaseRegex: `/docs/b2niveau/intro`,
           },
-          {
-            to: '/docs/intro',
-            position: 'left',
-            label: 'Tutorial',
-            activeBaseRegex: `/docs/intro`,
-          },
-          {to: '/blog', 
-            label: 'Blog', 
-            position: 'left',
-            activeBaseRegex: `/blog`,
-          },
+          // {
+          //   to: '/docs/intro',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          //   activeBaseRegex: `/docs/intro`,
+          // },
+          // {to: '/blog', 
+          //   label: 'Blog', 
+          //   position: 'left',
+          //   activeBaseRegex: `/blog`,
+          // },
           
           {
             href: 'https://facebook.com/yourpage',
@@ -163,18 +177,18 @@ const config = {
           {
             title: 'Giới thiệu',
             items: [
-              {
-                label: 'Giới thiệu',
-                to: 'https://learn-anything.vn/gioi-thieu',
-              },
               // {
-              //   label: 'Blog',
-              //   to: '/blog',
+              //   label: 'Giới thiệu',
+              //   to: 'https://learn-anything.vn/gioi-thieu',
               // },
-              {
-                label: 'Tài trợ dự án',
-                href: 'https://github.com/sponsors/thinh-vu',
-              },
+              // // {
+              // //   label: 'Blog',
+              // //   to: '/blog',
+              // // },
+              // {
+              //   label: 'Tài trợ dự án',
+              //   href: 'https://github.com/sponsors/thinh-vu',
+              // },
             ],
           },
         ],
