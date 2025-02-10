@@ -35,12 +35,8 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'de', // Ngôn ngữ mặc định
-    locales: ['en', 'vi', 'de'], // Thêm tiếng Việt và tiếng Đức
+    locales: ['vi', 'de'], // Thêm tiếng Việt và tiếng Đức
     localeConfigs: {
-      en: {
-        label: 'English',
-        direction: 'ltr',
-      },
       vi: {
         label: 'Tiếng Việt',
         direction: 'ltr',

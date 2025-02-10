@@ -11,14 +11,10 @@
             "id": "8a6a5ad9624b5415",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/customization/theme-swizzling-tuy-bien-giao-dien-mac-dinh.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "theme-swizzling-tuy-bien-giao-dien-mac-dinh"
+              "title": "New tab"
             }
           }
         ]
@@ -40,7 +36,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -164,6 +161,10 @@
   },
   "active": "8a6a5ad9624b5415",
   "lastOpenFiles": [
+    "build/lunr-index-1739209686799.json",
+    "build/lunr-index.json",
+    "build/search-doc-1739209686799.json",
+    "build/search-doc.json",
     "src/components/FooterSubscribe/FooterSubscribe.module.css",
     "src/components/FooterSubscribe/FooterSubscribe.js",
     "src/components/FooterContact/FooterContact.module.css",
@@ -171,11 +172,7 @@
     "src/components/FooterContact/ContactFooter.module.css",
     "src/components/FooterContact/ContactFooter.js",
     "src/components/FooterContact",
-    "src/components/FooterSubscribe/SubscribeFooter.module.css",
-    "src/components/FooterSubscribe/SubscribeFooter.js",
-    "src/components/FooterSubscribe",
     "static/images/Pasted image 20241130045542.png",
-    "src/components/ContactFooter/ContactFooter.module.css",
     "static/images/Pasted image 20241130035653.png",
     "docs/customization/Tuỳ biến Footer.md",
     "docs/customization/theme-swizzling-tuy-bien-giao-dien-mac-dinh.md",
